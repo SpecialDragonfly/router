@@ -12,10 +12,9 @@ class Router
     private $routes = [];
 
     /**
-     * Router constructor.
      * @param Route $route
      */
-    public function __construct(Route $route)
+    public function add(Route $route)
     {
         $this->routes[] = $route;
     }
